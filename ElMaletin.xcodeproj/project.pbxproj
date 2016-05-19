@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02F05BA11CEE8A5800DE9F94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F05BA01CEE8A5800DE9F94 /* AppDelegate.swift */; };
+		02F05BA31CEE8A5800DE9F94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F05BA21CEE8A5800DE9F94 /* ViewController.swift */; };
+		02F05BA61CEE8A5800DE9F94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F05BA41CEE8A5800DE9F94 /* Main.storyboard */; };
+		02F05BA81CEE8A5800DE9F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02F05BA71CEE8A5800DE9F94 /* Assets.xcassets */; };
+		02F05BAB1CEE8A5800DE9F94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F05BA91CEE8A5800DE9F94 /* LaunchScreen.storyboard */; };
+		02F05BB61CEE8A5800DE9F94 /* ElMaletinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F05BB51CEE8A5800DE9F94 /* ElMaletinTests.swift */; };
+		02F05BC11CEE8A5800DE9F94 /* ElMaletinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F05BC01CEE8A5800DE9F94 /* ElMaletinUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02F05BB21CEE8A5800DE9F94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02F05B951CEE8A5700DE9F94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02F05B9C1CEE8A5700DE9F94;
+			remoteInfo = ElMaletin;
+		};
+		02F05BBD1CEE8A5800DE9F94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02F05B951CEE8A5700DE9F94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02F05B9C1CEE8A5700DE9F94;
+			remoteInfo = ElMaletin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F05B9D1CEE8A5700DE9F94 /* ElMaletin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElMaletin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F05BA01CEE8A5800DE9F94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02F05BA21CEE8A5800DE9F94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02F05BA51CEE8A5800DE9F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02F05BA71CEE8A5800DE9F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02F05BAA1CEE8A5800DE9F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02F05BAC1CEE8A5800DE9F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02F05BB11CEE8A5800DE9F94 /* ElMaletinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElMaletinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F05BB51CEE8A5800DE9F94 /* ElMaletinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElMaletinTests.swift; sourceTree = "<group>"; };
+		02F05BB71CEE8A5800DE9F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02F05BBC1CEE8A5800DE9F94 /* ElMaletinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElMaletinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F05BC01CEE8A5800DE9F94 /* ElMaletinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElMaletinUITests.swift; sourceTree = "<group>"; };
+		02F05BC21CEE8A5800DE9F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02F05B9A1CEE8A5700DE9F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F05BAE1CEE8A5800DE9F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F05BB91CEE8A5800DE9F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02F05B941CEE8A5700DE9F94 = {
+			isa = PBXGroup;
+			children = (
+				02F05B9F1CEE8A5800DE9F94 /* ElMaletin */,
+				02F05BB41CEE8A5800DE9F94 /* ElMaletinTests */,
+				02F05BBF1CEE8A5800DE9F94 /* ElMaletinUITests */,
+				02F05B9E1CEE8A5700DE9F94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02F05B9E1CEE8A5700DE9F94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02F05B9D1CEE8A5700DE9F94 /* ElMaletin.app */,
+				02F05BB11CEE8A5800DE9F94 /* ElMaletinTests.xctest */,
+				02F05BBC1CEE8A5800DE9F94 /* ElMaletinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02F05B9F1CEE8A5800DE9F94 /* ElMaletin */ = {
+			isa = PBXGroup;
+			children = (
+				02F05BA01CEE8A5800DE9F94 /* AppDelegate.swift */,
+				02F05BA21CEE8A5800DE9F94 /* ViewController.swift */,
+				02F05BA41CEE8A5800DE9F94 /* Main.storyboard */,
+				02F05BA71CEE8A5800DE9F94 /* Assets.xcassets */,
+				02F05BA91CEE8A5800DE9F94 /* LaunchScreen.storyboard */,
+				02F05BAC1CEE8A5800DE9F94 /* Info.plist */,
+			);
+			path = ElMaletin;
+			sourceTree = "<group>";
+		};
+		02F05BB41CEE8A5800DE9F94 /* ElMaletinTests */ = {
+			isa = PBXGroup;
+			children = (
+				02F05BB51CEE8A5800DE9F94 /* ElMaletinTests.swift */,
+				02F05BB71CEE8A5800DE9F94 /* Info.plist */,
+			);
+			path = ElMaletinTests;
+			sourceTree = "<group>";
+		};
+		02F05BBF1CEE8A5800DE9F94 /* ElMaletinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02F05BC01CEE8A5800DE9F94 /* ElMaletinUITests.swift */,
+				02F05BC21CEE8A5800DE9F94 /* Info.plist */,
+			);
+			path = ElMaletinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02F05B9C1CEE8A5700DE9F94 /* ElMaletin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F05BC51CEE8A5800DE9F94 /* Build configuration list for PBXNativeTarget "ElMaletin" */;
+			buildPhases = (
+				02F05B991CEE8A5700DE9F94 /* Sources */,
+				02F05B9A1CEE8A5700DE9F94 /* Frameworks */,
+				02F05B9B1CEE8A5700DE9F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElMaletin;
+			productName = ElMaletin;
+			productReference = 02F05B9D1CEE8A5700DE9F94 /* ElMaletin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02F05BB01CEE8A5800DE9F94 /* ElMaletinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F05BC81CEE8A5800DE9F94 /* Build configuration list for PBXNativeTarget "ElMaletinTests" */;
+			buildPhases = (
+				02F05BAD1CEE8A5800DE9F94 /* Sources */,
+				02F05BAE1CEE8A5800DE9F94 /* Frameworks */,
+				02F05BAF1CEE8A5800DE9F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02F05BB31CEE8A5800DE9F94 /* PBXTargetDependency */,
+			);
+			name = ElMaletinTests;
+			productName = ElMaletinTests;
+			productReference = 02F05BB11CEE8A5800DE9F94 /* ElMaletinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02F05BBB1CEE8A5800DE9F94 /* ElMaletinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F05BCB1CEE8A5800DE9F94 /* Build configuration list for PBXNativeTarget "ElMaletinUITests" */;
+			buildPhases = (
+				02F05BB81CEE8A5800DE9F94 /* Sources */,
+				02F05BB91CEE8A5800DE9F94 /* Frameworks */,
+				02F05BBA1CEE8A5800DE9F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02F05BBE1CEE8A5800DE9F94 /* PBXTargetDependency */,
+			);
+			name = ElMaletinUITests;
+			productName = ElMaletinUITests;
+			productReference = 02F05BBC1CEE8A5800DE9F94 /* ElMaletinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02F05B951CEE8A5700DE9F94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = NextU;
+				TargetAttributes = {
+					02F05B9C1CEE8A5700DE9F94 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					02F05BB01CEE8A5800DE9F94 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 02F05B9C1CEE8A5700DE9F94;
+					};
+					02F05BBB1CEE8A5800DE9F94 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 02F05B9C1CEE8A5700DE9F94;
+					};
+				};
+			};
+			buildConfigurationList = 02F05B981CEE8A5700DE9F94 /* Build configuration list for PBXProject "ElMaletin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02F05B941CEE8A5700DE9F94;
+			productRefGroup = 02F05B9E1CEE8A5700DE9F94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02F05B9C1CEE8A5700DE9F94 /* ElMaletin */,
+				02F05BB01CEE8A5800DE9F94 /* ElMaletinTests */,
+				02F05BBB1CEE8A5800DE9F94 /* ElMaletinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02F05B9B1CEE8A5700DE9F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F05BAB1CEE8A5800DE9F94 /* LaunchScreen.storyboard in Resources */,
+				02F05BA81CEE8A5800DE9F94 /* Assets.xcassets in Resources */,
+				02F05BA61CEE8A5800DE9F94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F05BAF1CEE8A5800DE9F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F05BBA1CEE8A5800DE9F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02F05B991CEE8A5700DE9F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F05BA31CEE8A5800DE9F94 /* ViewController.swift in Sources */,
+				02F05BA11CEE8A5800DE9F94 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F05BAD1CEE8A5800DE9F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F05BB61CEE8A5800DE9F94 /* ElMaletinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F05BB81CEE8A5800DE9F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F05BC11CEE8A5800DE9F94 /* ElMaletinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02F05BB31CEE8A5800DE9F94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02F05B9C1CEE8A5700DE9F94 /* ElMaletin */;
+			targetProxy = 02F05BB21CEE8A5800DE9F94 /* PBXContainerItemProxy */;
+		};
+		02F05BBE1CEE8A5800DE9F94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02F05B9C1CEE8A5700DE9F94 /* ElMaletin */;
+			targetProxy = 02F05BBD1CEE8A5800DE9F94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02F05BA41CEE8A5800DE9F94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02F05BA51CEE8A5800DE9F94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02F05BA91CEE8A5800DE9F94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02F05BAA1CEE8A5800DE9F94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02F05BC31CEE8A5800DE9F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		02F05BC41CEE8A5800DE9F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02F05BC61CEE8A5800DE9F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ElMaletin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nextu.iosdeveloper.ElMaletin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02F05BC71CEE8A5800DE9F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ElMaletin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nextu.iosdeveloper.ElMaletin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		02F05BC91CEE8A5800DE9F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElMaletinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nextu.iosdeveloper.ElMaletinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElMaletin.app/ElMaletin";
+			};
+			name = Debug;
+		};
+		02F05BCA1CEE8A5800DE9F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElMaletinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nextu.iosdeveloper.ElMaletinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElMaletin.app/ElMaletin";
+			};
+			name = Release;
+		};
+		02F05BCC1CEE8A5800DE9F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElMaletinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nextu.iosdeveloper.ElMaletinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ElMaletin;
+			};
+			name = Debug;
+		};
+		02F05BCD1CEE8A5800DE9F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElMaletinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nextu.iosdeveloper.ElMaletinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ElMaletin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02F05B981CEE8A5700DE9F94 /* Build configuration list for PBXProject "ElMaletin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F05BC31CEE8A5800DE9F94 /* Debug */,
+				02F05BC41CEE8A5800DE9F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02F05BC51CEE8A5800DE9F94 /* Build configuration list for PBXNativeTarget "ElMaletin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F05BC61CEE8A5800DE9F94 /* Debug */,
+				02F05BC71CEE8A5800DE9F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02F05BC81CEE8A5800DE9F94 /* Build configuration list for PBXNativeTarget "ElMaletinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F05BC91CEE8A5800DE9F94 /* Debug */,
+				02F05BCA1CEE8A5800DE9F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02F05BCB1CEE8A5800DE9F94 /* Build configuration list for PBXNativeTarget "ElMaletinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F05BCC1CEE8A5800DE9F94 /* Debug */,
+				02F05BCD1CEE8A5800DE9F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02F05B951CEE8A5700DE9F94 /* Project object */;
+}
